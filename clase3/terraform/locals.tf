@@ -1,8 +1,7 @@
 locals {
-    #Debe ser único, ejemplo, alias = "jyapur"
-    alias = ""
+    alias = "lovisa"
     #ejemplo, region = "East US 2"
-    region = "Central US"
+    region = "East US 2"
     workers = 3
     instancia = "Standard_D1_v2"
     subscripcion = ""
