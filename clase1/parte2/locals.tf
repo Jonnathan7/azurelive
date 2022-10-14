@@ -1,7 +1,6 @@
 locals {
-    #Debe ser único, ejemplo, alias = "jyapur"
-    alias = ""
+    alias = "lovisa"
     #ejemplo, region = "East US 2"
-    region = "East US"
+    region = "East US 2"
     #az ad sp create-for-rbac --role="Contributor" --scopes="/subscriptions/<subscriptionID>/resourceGroups/<resourceGroupName>"
 }
