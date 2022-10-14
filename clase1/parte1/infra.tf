@@ -10,7 +10,7 @@ resource "azurerm_resource_group" "rgtfstate" {
   }
 }
 resource "azurerm_storage_account" "stgid" {
-  name                     = "satfstateprod"
+  name                     = "satfstatejustin"
   resource_group_name      = "${azurerm_resource_group.rgtfstate.name}"
   location                 = "${azurerm_resource_group.rgtfstate.location}"
   account_tier             = "Standard"
